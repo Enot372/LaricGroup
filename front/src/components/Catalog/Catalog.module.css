@@ -1,0 +1,142 @@
+.catalog{
+    width: 1200px;
+    margin: 0 auto;
+}
+.label_attach{
+
+ }
+.li_color{
+    color: #646464;
+}
+.catalog ul {
+    width: 100%;
+    display: flex;
+
+    list-style: none;
+}
+
+.catalog a{
+    color: #333333;
+}
+
+.div_input
+{
+    align: baseline;
+    padding: 0.8vw 4.5vw;
+    border-radius: 0.5vw;
+    border:1px dashed rgba(33,33,33,0.2);
+}
+.div_input input{
+    display:none;
+}
+.div_input img
+{
+
+    margin-right: 0.5vw;
+}
+
+
+.div_li{
+    font: inherit;
+    width: 100%;
+    display: flex;
+    padding: 40px 20px 20px 20px;
+    list-style: none;
+}
+
+.list_setting{
+    color: #646464;
+}
+.list_setting li{
+    padding: 5px;
+}
+
+
+
+
+
+.components{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 45px 20px 30px 20px;
+    border-bottom: solid 1px #f1f1f1;
+    margin-bottom: 40px;
+}
+
+.components a{
+    width: calc(25% - 30px);
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 2px 6px 1px rgb(0 0 0 / 10%);
+
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 2px;
+    margin-bottom: 30px
+}
+.ind_maf h2{
+    font-weight: inherit;
+    line-height: 1.3;
+    padding: 6vw 0vw 6vw 0vw;
+    font-size: 50px;
+}
+
+.ind_maf div{
+    margin-right: 2vw;
+    align-items: baseline;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.components p{
+    color: #212121;
+    font-size: 22px;
+    text-align: center;
+}
+
+.div_wall{
+background: url("svg/wall.svg");
+}
+
+.div_flow{
+    background: url("svg/flow.svg");
+}
+
+.div_bench{
+    background: url("svg/bench.svg");
+}
+
+.div_grid{
+    background: url("svg/grid.svg");
+}
+
+.div_yrn{
+    background: url("svg/yrn.svg");
+}
+
+.div_stolb{
+    background: url("svg/stolb.svg");
+}
+
+.div_velo{
+    background: url("svg/velo.svg");
+}
+
+.div_ost{
+    background: url("svg/ost.svg");
+}
+
+.ic_setting{
+    height: 180px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+}
+.div_p{
+    padding: 20px;
+}

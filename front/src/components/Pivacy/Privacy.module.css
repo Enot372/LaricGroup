@@ -1,0 +1,28 @@
+.all{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+}
+.all h1 {
+    padding: 3.5vw 0vw;
+    text-align: center;
+    font: 100 36px/1em 'PT Sans', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #3fa7a6;
+}
+.all p{
+    margin-bottom: 2vw;
+    clear: both;
+    font-family: inherit;
+    color: #212121;
+    line-height: 1.429em;
+    font-size: 14px;
+}
+.all h4{
+    padding-bottom: 2vw;
+    font: inherit;
+    text-align: justify;
+    color: #212121;
+    font-size: 18px;
+}

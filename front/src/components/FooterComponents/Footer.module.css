@@ -1,0 +1,144 @@
+
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    color: #212121;
+    padding: 5vw 0;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 1vw;
+}
+.footer h6{
+    font-weight: 700;
+
+    padding: 1vw;
+}
+.phone{
+    color: #212121;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+    cursor: pointer;
+}
+.email{
+    color: #212121;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.footer p{
+    color: #919191;
+    padding: 1vw;
+}
+.div_setting{
+    display: flex;
+    font-size: 13px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.div_setting_block a{
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    font-size: 13px;
+    position: relative;
+    padding: 0vw 1vw 1vw 0vw;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+.divtwo_one{
+    padding-left: 75px;
+}
+.divtwo_two{
+    padding: 0px 50px;
+}
+.divtwo_three{
+    padding-right: 74px;
+}
+.div_tuning{
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: row;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+.icn_setting a{
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    font-size: 13px;
+    position: relative;
+    padding: 0.3vw;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+.icn_setting{
+    display: flex;
+}
+.div_setting_mobile{
+    display: none;
+}
+@media screen and (max-width: 550px){
+    .container{
+        padding: 40px 20px;
+        margin-left: -20px;
+        width: calc(100% + 40px);
+    }
+    .div_setting{
+        display: none;
+    }
+    .div_setting_mobile{
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+    .div_tuning{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .divtwo_one{
+        padding:0vw;
+    }
+    .divtwo_two{
+        padding: 0vw;
+    }
+    .divtwo_three {
+        padding: 0vw;
+    }
+    .div_setting_block a{
+        padding-bottom: 6vw;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 0vw;
+    }
+    .footer h6{
+        padding: 0vw 0vw 6vw 0vw;
+        opacity: 0.7;
+    }
+    .footer p{
+        font-size: 15px;
+        color: #919191;
+        line-height: 1.4;
+        padding: 0vw 0vw 12vw 0vw;
+    }
+    .icn_setting{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .div_text{
+        width: 200px;
+    }
+}
+

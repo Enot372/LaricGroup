@@ -1,0 +1,55 @@
+
+.input_name{
+    padding:0.8vw;
+    flex-direction: column;
+}
+
+.input_name input{
+    width: 100%;
+    padding: 19px 19px;
+    border-bottom: solid 1px rgba(33,33,33,0.2);
+    color: #212121;
+}
+
+.input_name label{
+    display: block;
+    font-size: 16px;
+    opacity: 0.4;
+}
+.order_attach{
+    padding: 0.8vw 5.5vw;
+    border-radius: 0.5vw;
+    border:1px dashed rgba(33,33,33,0.2);
+}
+.order_attach img{
+    margin-right: 1vw;
+}
+.order_attach input{
+    display:none;
+}
+.textarea{
+    width: 100%;
+    margin-top: 12%;
+    margin-right: 2.5vw;
+    border-bottom: solid 1px rgba(33,33,33,0.2);
+    color: #212121;
+}
+.checkbox input{
+    margin-right: 0.5vw;
+}
+.div_button{
+    padding-top: 3vw;
+    text-align: center;
+}
+.button_setting{
+    width: 250px;
+    height: 65px;
+    color: #fff;
+    background: #212121;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Golos Text Medium", Arial, Helvetica, sans-serif;
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+}
